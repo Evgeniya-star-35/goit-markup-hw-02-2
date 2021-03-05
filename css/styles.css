@@ -1,0 +1,37 @@
+body {
+  font-family: Roboto;
+  background-color: #e5e5e5;
+  color: #212121;
+}
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* белый #FFFFFF */
+/* акцент  #2196F3*/
+/* borders  #EEEEEE*/
+.logo {
+  color: ;
+}
+
+.link-itom {
+  color: #757575;
+}
+.link-itom:hover,
+.link-itom:focus {
+  color: #2196f3;
+}
+.hero-title {
+  color: #ffffff;
+}
+.section-title,
+.content {
+  color: #212121;
+}
+.team-list.text {
+  color: #757575;
+}
+.team-list.name {
+  color: #212121;
+}
+.team-list.prof {
+  color: #757575;
+}
