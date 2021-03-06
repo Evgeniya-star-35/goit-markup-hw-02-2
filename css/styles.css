@@ -1,3 +1,13 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --primery-white-color: #ffffff;
+  --secondary-background-color: #f5f4fa;
+  --accent-background-color: #2196f3;
+  --button-hero-text-color: #ffffff;
+}
 body {
   font-family: Roboto;
   background-color: #e5e5e5;
@@ -8,30 +18,54 @@ body {
 /* белый #FFFFFF */
 /* акцент  #2196F3*/
 /* borders  #EEEEEE*/
-.logo {
-  color: ;
+
+body {
+  font-family: Roboto;
+  background-color: var(--primery-white-color);
+  color: var(--primary-text-color);
 }
 
 .link-itom {
-  color: #757575;
+  color: var(--title-text-color);
 }
 .link-itom:hover,
 .link-itom:focus {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
 }
 .hero-title {
-  color: #ffffff;
+  color: var(--button-hero-text-color);
 }
-.section-title,
-.content {
-  color: #212121;
+.section-title.content {
+  color: var(--title-text-color);
 }
 .team-list.text {
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 .team-list.name {
-  color: #212121;
+  color: var(--title-text-color);
 }
 .team-list.prof {
-  color: #757575;
+  color: var(--secondary-text-color);
+}
+
+.button {
+  color: var(--button-hero-text-color);
+  background-color: var(--secondary-background-color);
+}
+.button.primery {
+  color: var(--primery-white-color);
+  background-color: var(--accent-background-color);
+}
+.button.secondary {
+  color: var(--title-text-color);
+  background-color: var(--secondary-background-color);
+}
+.work-list.title {
+  color: var(--title-text-color);
+}
+.work-list.text {
+  color: var(--secondary-text-color);
 }
