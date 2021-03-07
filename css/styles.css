@@ -56,12 +56,19 @@ body {
   background-color: var(--secondary-background-color);
 }
 .button.primery {
+  cursor: pointer;
   color: var(--primery-white-color);
   background-color: var(--accent-background-color);
 }
 .button.secondary {
   color: var(--title-text-color);
   background-color: var(--secondary-background-color);
+}
+.button.secondary:hover,
+.button.secondary:focus {
+  cursor: pointer;
+  color: var(--primery-white-color);
+  background-color: var(--accent-background-color);
 }
 .work-list.title {
   color: var(--title-text-color);
