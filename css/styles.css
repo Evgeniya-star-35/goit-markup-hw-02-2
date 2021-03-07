@@ -9,7 +9,8 @@
   --button-hero-text-color: #ffffff;
 }
 body {
-  font-family: Roboto;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #e5e5e5;
   color: #212121;
 }
