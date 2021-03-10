@@ -49,13 +49,13 @@ body {
 .link-item:focus {
   color: var(--accent-color);
 }
-.site-nav .link.current {
+.site-nav .link-current {
   color: var(--accent-color);
 }
-.email {
+.header-email {
   color: var(--secondary-text-color);
 }
-.tel {
+.header-tel {
   color: var(--secondary-text-color);
 }
 .section-hero {
@@ -146,14 +146,20 @@ body {
 }
 
 .button {
-  color: var(--button-hero-text-color);
+  color: var(--primary-text-color);
   background-color: var(--secondary-background-color);
+}
+.text-button {
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
-.button {
-  color: var(--title-text-color);
-  background-color: var(--secondary-background-color);
-}
 .button:hover,
 .button:focus {
   cursor: pointer;
@@ -174,4 +180,26 @@ body {
 }
 .work-list.text {
   color: var(--secondary-text-color);
+}
+.section-footer {
+  background-color: var(--bg-hero-color);
+}
+.address {
+  color: var(--button-hero-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.email,
+.tel {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
