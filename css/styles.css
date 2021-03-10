@@ -6,6 +6,7 @@
   --secondary-background-color: #f5f4fa;
   --accent-background-color: #2196f3;
   --button-hero-text-color: #ffffff;
+  --bg-hero-color: #2f303a;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -27,14 +28,16 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-.span {
+
+.span-web {
   color: var(--accent-color);
 }
-.span-st {
+
+.span-studio {
   color: #000000;
 }
 
-.link-itom {
+.link-item {
   color: var(--primary-text-color);
   font-family: Roboto;
   font-weight: 500;
@@ -42,28 +45,104 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.link-itom:hover,
-.link-itom:focus {
+.link-item:hover,
+.link-item:focus {
   color: var(--accent-color);
 }
 .site-nav .link.current {
   color: var(--accent-color);
 }
+.email {
+  color: var(--secondary-text-color);
+}
+.tel {
+  color: var(--secondary-text-color);
+}
+.section-hero {
+  background-color: var(--bg-hero-color);
+}
 
 .hero-title {
   color: var(--button-hero-text-color);
+  background-color: var(--bg-hero-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
-.section-title.content {
-  color: var(--title-text-color);
+.hero-button {
+  color: var(--button-hero-text-color);
+  background-color: var(--accent-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
-.team-list.text {
+.hero-button:hover,
+.hero-button:focus {
+  cursor: pointer;
+}
+
+.title-section {
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.title-content {
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.p-text {
   color: var(--secondary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
+
 .team-list.name {
-  color: var(--title-text-color);
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .team-list.prof {
   color: var(--secondary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .button {
@@ -81,8 +160,17 @@ body {
   color: var(--primery-white-color);
   background-color: var(--accent-background-color);
 }
+.filter {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 .work-list.title {
-  color: var(--title-text-color);
+  color: var(--primary-text-color);
 }
 .work-list.text {
   color: var(--secondary-text-color);
