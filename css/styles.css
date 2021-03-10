@@ -1,6 +1,5 @@
 :root {
   --primary-text-color: #212121;
-  --title-text-color: #212121;
   --secondary-text-color: #757575;
   --accent-color: #2196f3;
   --primery-white-color: #ffffff;
@@ -10,8 +9,8 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #e5e5e5;
-  color: #212121;
+  background-color: var(--primery-white-color);
+  color: var(--primary-text-color);
 }
 /* цвет основного текста #212121 */
 /* вторичный цвет текста #757575 */
@@ -19,14 +18,29 @@ body {
 /* акцент  #2196F3*/
 /* borders  #EEEEEE*/
 
-body {
-  font-family: Roboto;
-  background-color: var(--primery-white-color);
-  color: var(--primary-text-color);
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.span {
+  color: var(--accent-color);
+}
+.span-st {
+  color: #000000;
 }
 
 .link-itom {
-  color: var(--title-text-color);
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .link-itom:hover,
 .link-itom:focus {
@@ -35,6 +49,7 @@ body {
 .site-nav .link.current {
   color: var(--accent-color);
 }
+
 .hero-title {
   color: var(--button-hero-text-color);
 }
@@ -55,17 +70,13 @@ body {
   color: var(--button-hero-text-color);
   background-color: var(--secondary-background-color);
 }
-.button.primery {
-  cursor: pointer;
-  color: var(--primery-white-color);
-  background-color: var(--accent-background-color);
-}
-.button.secondary {
+
+.button {
   color: var(--title-text-color);
   background-color: var(--secondary-background-color);
 }
-.button.secondary:hover,
-.button.secondary:focus {
+.button:hover,
+.button:focus {
   cursor: pointer;
   color: var(--primery-white-color);
   background-color: var(--accent-background-color);
