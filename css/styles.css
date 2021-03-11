@@ -51,13 +51,16 @@ body {
 }
 .site-nav .link-current {
   color: var(--accent-color);
+  text-decoration: none;
 }
 /*имаил,телефон в хедере*/
 .header-email {
   color: var(--secondary-text-color);
+  text-decoration: none;
 }
 .header-tel {
   color: var(--secondary-text-color);
+  text-decoration: none;
 }
 /*секция герой 1 стр*/
 .section-hero {
@@ -104,7 +107,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-align: center;
 }
 /*текстовый контент в секциях*/
 .p-text {
