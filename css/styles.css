@@ -99,6 +99,7 @@ body {
 .hero-button:hover,
 .hero-button:focus {
   cursor: pointer;
+  color: #188ce8;
 }
 /*заголовки секций*/
 .title-section {
@@ -125,6 +126,9 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+}
+.list {
+  list-style: none;
 }
 /*имена в секции команда*/
 .team-list.name {
@@ -167,7 +171,7 @@ body {
 /*заголовки h2 списка работ*/
 .work-list.title {
   color: var(--primary-text-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -190,6 +194,7 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  font-style: normal;
 }
 .email,
 .tel {
