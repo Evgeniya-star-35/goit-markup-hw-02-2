@@ -43,6 +43,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .link-item:hover,
 .link-item:focus {
@@ -66,7 +67,6 @@ body {
 .hero-title {
   color: var(--button-hero-text-color);
   background-color: var(--bg-hero-color);
-  font-family: Roboto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -77,7 +77,6 @@ body {
 .hero-button {
   color: var(--button-hero-text-color);
   background-color: var(--accent-color);
-  font-family: Roboto;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
@@ -91,7 +90,6 @@ body {
 /*заголовки секций*/
 .title-section {
   color: var(--primary-text-color);
-  font-family: Roboto;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -101,18 +99,17 @@ body {
 /*заголовки h2*/
 .title-content {
   color: var(--primary-text-color);
-  font-family: Roboto;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-align: center;
 }
 /*текстовый контент в секциях*/
 .p-text {
   color: var(--secondary-text-color);
-  font-family: Roboto;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -120,7 +117,6 @@ body {
 /*имена в секции команда*/
 .team-list.name {
   color: var(--primary-text-color);
-  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
@@ -130,8 +126,7 @@ body {
 /*профессии в секции команда*/
 .team-list.prof {
   color: var(--secondary-text-color);
-  font-family: Roboto;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.9px;
   text-align: center;
@@ -144,7 +139,6 @@ body {
 }
 .work.text-button {
   color: var(--primary-text-color);
-  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6px;
@@ -161,18 +155,15 @@ body {
 /*заголовки h2 списка работ*/
 .work-list.title {
   color: var(--primary-text-color);
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 /*текст списка работ*/
 .work-list.text {
   color: var(--secondary-text-color);
-  font-family: Roboto;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
@@ -183,9 +174,7 @@ body {
 }
 .address {
   color: var(--button-hero-text-color);
-  font-family: Roboto;
-
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -193,8 +182,7 @@ body {
 .email,
 .tel {
   color: rgba(255, 255, 255, 0.6);
-  font-family: Roboto;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
