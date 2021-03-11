@@ -13,6 +13,7 @@ body {
   background-color: var(--primery-white-color);
   color: var(--primary-text-color);
 }
+/*утилита*/
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -64,14 +65,12 @@ body {
   text-decoration: none;
 }
 /*имаил,телефон в хедере*/
-.header-email {
-  color: var(--secondary-text-color);
-  text-decoration: none;
-}
+.header-email,
 .header-tel {
   color: var(--secondary-text-color);
   text-decoration: none;
 }
+
 /*секция герой 1 стр*/
 .section-hero {
   background-color: var(--bg-hero-color);
@@ -90,7 +89,7 @@ body {
 .hero-button {
   color: var(--button-hero-text-color);
   background-color: var(--accent-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   display: flex;
@@ -104,7 +103,7 @@ body {
 /*заголовки секций*/
 .title-section {
   color: var(--primary-text-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -113,7 +112,7 @@ body {
 /*заголовки h2*/
 .title-content {
   color: var(--primary-text-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -122,7 +121,6 @@ body {
 /*текстовый контент в секциях*/
 .p-text {
   color: var(--secondary-text-color);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -142,7 +140,6 @@ body {
 /*профессии в секции команда*/
 .team-list.prof {
   color: var(--secondary-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.9px;
   text-align: center;
