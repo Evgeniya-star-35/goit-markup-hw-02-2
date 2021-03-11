@@ -18,7 +18,7 @@ body {
 /* белый #FFFFFF */
 /* акцент  #2196F3*/
 /* borders  #EEEEEE*/
-
+/*стилизация логотипа*/
 .logo {
   font-family: Raleway;
   font-weight: bold;
@@ -35,7 +35,7 @@ body {
 .span-studio {
   color: #000000;
 }
-
+/*стилизация ссылок*/
 .link-item {
   color: var(--primary-text-color);
   font-family: Roboto;
@@ -51,12 +51,14 @@ body {
 .site-nav .link-current {
   color: var(--accent-color);
 }
+/*имаил,телефон в хедере*/
 .header-email {
   color: var(--secondary-text-color);
 }
 .header-tel {
   color: var(--secondary-text-color);
 }
+/*секция герой 1 стр*/
 .section-hero {
   background-color: var(--bg-hero-color);
 }
@@ -86,7 +88,7 @@ body {
 .hero-button:focus {
   cursor: pointer;
 }
-
+/*заголовки секций*/
 .title-section {
   color: var(--primary-text-color);
   font-family: Roboto;
@@ -96,6 +98,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
+/*заголовки h2*/
 .title-content {
   color: var(--primary-text-color);
   font-family: Roboto;
@@ -105,6 +108,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+/*текстовый контент в секциях*/
 .p-text {
   color: var(--secondary-text-color);
   font-family: Roboto;
@@ -113,17 +117,17 @@ body {
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
-
+/*имена в секции команда*/
 .team-list.name {
   color: var(--primary-text-color);
   font-family: Roboto;
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
   letter-spacing: 0.03em;
 }
+/*профессии в секции команда*/
 .team-list.prof {
   color: var(--secondary-text-color);
   font-family: Roboto;
@@ -133,35 +137,28 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
-
-.button {
+/*кнопки на странице портфолио*/
+.button-filter {
   color: var(--primary-text-color);
   background-color: var(--secondary-background-color);
 }
-.text-button {
+.work.text-button {
   color: var(--primary-text-color);
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6px;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 
-.button:hover,
-.button:focus {
+.button-filter:hover,
+.button-filter:focus {
   cursor: pointer;
   color: var(--primery-white-color);
   background-color: var(--accent-background-color);
 }
-.filter {
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6px;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
+
+/*заголовки h2 списка работ*/
 .work-list.title {
   color: var(--primary-text-color);
   font-family: Roboto;
@@ -171,7 +168,7 @@ body {
   line-height: 36px;
   letter-spacing: 0.06em;
 }
-
+/*текст списка работ*/
 .work-list.text {
   color: var(--secondary-text-color);
   font-family: Roboto;
@@ -180,6 +177,7 @@ body {
   line-height: 1.8;
   letter-spacing: 0.03em;
 }
+/*футер*/
 .section-footer {
   background-color: var(--bg-hero-color);
 }
