@@ -129,20 +129,18 @@ body {
   list-style: none;
 }
 /*имена в секции команда*/
-.team-list.name {
-  color: var(--primary-text-color);
+.title-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
-  text-align: center;
   letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 /*профессии в секции команда*/
-.team-list.prof {
+.prof-itom {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.9px;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 /*кнопки на странице портфолио*/
