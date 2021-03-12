@@ -174,7 +174,7 @@ body {
   letter-spacing: 0.06em;
 }
 /*текст списка работ*/
-.work-list.text {
+.work-text {
   color: var(--secondary-text-color);
   font-weight: 400;
   font-size: 16px;
